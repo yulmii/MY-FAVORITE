@@ -1,0 +1,58 @@
+header {
+    border:2px dashed rgb(3, 194, 44);
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+header>h1 {
+            text-align: center;
+            line-height: 25px;
+            font-size: 50px;
+}
+nav {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border:2px dashed rgb(3, 194, 44);
+    width: 20vw;
+    position: fixed;
+    top: 100px;
+    bottom: 60px;
+    left: 0;
+    overflow: auto;
+}
+main {
+    border:2px dashed rgb(3, 194, 44);
+    position: fixed;
+    padding: 20px;
+    top: 100px;
+    left: 20vw;
+    right: 0;
+    bottom: 60px;
+    overflow: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+}
+
+.menu{
+    margin: 2.5vw;
+    width: 95vw;
+    height: 500px;
+}
+
+.logo {
+    margin: 5vw;
+}
+
+fieldset {
+    display: inline;
+    margin-left: 5vw;
+}
